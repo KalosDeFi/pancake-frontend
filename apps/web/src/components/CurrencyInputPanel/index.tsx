@@ -1,6 +1,5 @@
 import { useMemo, useState } from 'react'
-import { Currency, Token, Percent, CurrencyAmount } from '@pancakeswap/swap-sdk-core/src'
-import { Pair } from '@pancakeswap/sdk/src/entities/index'
+import { Currency, Pair, Token, Percent, CurrencyAmount } from '@pancakeswap/sdk'
 import { Button, ChevronDownIcon, Text, useModal, Flex, Box, NumericalInput, CopyButton } from '@pancakeswap/uikit'
 import styled, { css } from 'styled-components'
 import { isAddress } from 'utils'

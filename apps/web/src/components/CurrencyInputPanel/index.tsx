@@ -5,7 +5,7 @@ import { Button, ChevronDownIcon, Text, useModal, Flex, Box, NumericalInput, Cop
 import styled, { css } from 'styled-components'
 import { isAddress } from 'utils'
 import { useTranslation } from '@pancakeswap/localization'
-import { WrappedTokenInfo } from '@pancakeswap/token-lists'
+import { WrappedTokenInfo } from '@pancakeswap/token-lists/src'
 
 import { useBUSDCurrencyAmount } from 'hooks/useBUSDPrice'
 import { formatNumber } from '@pancakeswap/utils/formatBalance'
